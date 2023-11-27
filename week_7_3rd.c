@@ -73,6 +73,9 @@ int i,j,m,n;
     default:
         printf("invalid input");
     }
+    free(a);
+    free(b);
+    free(c);
     main();
 
 }
