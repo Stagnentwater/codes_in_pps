@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void main(){
+void main(){//to use this add a text file named file.txt and give your lines there it will count it
 FILE *fptr;
 int no_of_lines=0,no_of_words=0,no_of_letters=0,i,j;
 fptr = fopen("file.txt", "r");
